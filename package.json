@@ -1,7 +1,6 @@
 {
   "name": "shufflepoet-deploy",
   "private": true,
-  "homepage": "http://lucasastesiano.github.io/sp-deploy",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
