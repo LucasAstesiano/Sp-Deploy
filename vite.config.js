@@ -7,5 +7,5 @@ export default defineConfig({
     outDir:'dist'
   },
   plugins: [react()],
-  base:'https://lucasastesiano.github.io/gh-pages-test/'
+  base:'https://lucasastesiano.github.io/Sp-Deploy/'
 })
