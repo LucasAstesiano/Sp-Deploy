@@ -13,18 +13,18 @@ function App() {
   }
   //VERSION DIVISION POR PALABRA
 
-  /*  const handleSubmit=(event)=>{
+   const handleSubmit=(event)=>{
      event.preventDefault()
      const words=text.split(' ')
      const mixedWords=mixed(words)
      const finalText=mixedWords.join(' ')
      setMixedText(finalText);
  
-   } */
+   }
 
 
   /*VERSION DIVISION CADA 5 PALABRAS */
-  const handleSubmit = (event) => {
+/*   const handleSubmit = (event) => {
     event.preventDefault()
     const words = text.split(' ')
     const splitWords = words.reduce((grupos, palabra, indice) => {
@@ -35,13 +35,15 @@ function App() {
       return grupos;
     }, []);
     const mixedWords = mixed(splitWords)
-    const finalText = mixedWords.join(' ')
+    const finalText = mixedWords.join(" ")
     setMixedText(finalText);
-  }
+  }*/
+
+  
   const mixed = (words) => {
     const randomWords = words.sort(() => Math.random() - 0.5);
     return randomWords;
-  }
+  } 
 
   return (
     <>
